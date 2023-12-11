@@ -10,3 +10,8 @@ __Part 1 - Advanced Scala__ [here](/src/main/scala/lectures/part1as)
   * Infix types
   * update() method
   * Setters for mutable containers
+* Advanced Pattern Matching
+  * unapply method
+  * Infix patterns
+  * Decomposing sequences
+  * Custom return types for unapply (rare)
