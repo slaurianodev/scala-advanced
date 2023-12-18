@@ -15,3 +15,7 @@ __Part 1 - Advanced Scala__ [here](/src/main/scala/lectures/part1as)
   * Infix patterns
   * Decomposing sequences
   * Custom return types for unapply (rare)
+
+__Part 2 - Advanced Functional Programming__ [here](/src/main/scala/lectures/part2afp)
+* Partial Functions
+  * utilities: isDefinedAt, lift, orElse
