@@ -19,3 +19,6 @@ __Part 1 - Advanced Scala__ [here](/src/main/scala/lectures/part1as)
 __Part 2 - Advanced Functional Programming__ [here](/src/main/scala/lectures/part2afp)
 * Partial Functions
   * utilities: isDefinedAt, lift, orElse
+  * Curried functions - functions returning other functions
+  * Lifting - transform a method into a function (ETA-expansion)
+  * PAF - Partial Function Applications 
