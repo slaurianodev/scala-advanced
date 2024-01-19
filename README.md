@@ -22,3 +22,8 @@ __Part 2 - Advanced Functional Programming__ [here](/src/main/scala/lectures/par
   * Curried functions - functions returning other functions
   * Lifting - transform a method into a function (ETA-expansion)
   * PAF - Partial Function Applications 
+* Lazy Evaluation
+  * Call By Need
+  * Filtering with lazy vals
+  * withFilter
+  * for-comprehensions use withFilter with guards
