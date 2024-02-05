@@ -27,3 +27,6 @@ __Part 2 - Advanced Functional Programming__ [here](/src/main/scala/lectures/par
   * Filtering with lazy vals
   * withFilter
   * for-comprehensions use withFilter with guards
+* Monads
+  * List, Option, Try, Future, Stream, Set are all *monads*
+  * Monad laws: left identity, right identity, associativity
