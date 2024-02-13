@@ -30,3 +30,8 @@ __Part 2 - Advanced Functional Programming__ [here](/src/main/scala/lectures/par
 * Monads
   * List, Option, Try, Future, Stream, Set are all *monads*
   * Monad laws: left identity, right identity, associativity
+
+__Part 3 - Functional Concurrent Programming__ [here](/src/main/scala/lectures/part3concurrency)  
+* Concurrency
+  * Executors - manage threads
+  * Concurrency Problem on the JVM - Race condition
