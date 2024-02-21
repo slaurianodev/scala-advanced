@@ -36,5 +36,5 @@ __Part 3 - Functional Concurrent Programming__ [here](/src/main/scala/lectures/p
   * Executors - manage threads
   * Concurrency Problem on the JVM - Race condition
   * Thread communication 
-  * Producer/Consumer problem
-  * Wait and notify (synchronizes)
+    * Producer/Consumer problem
+    * Wait and notify (synchronizes)
