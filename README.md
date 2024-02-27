@@ -38,3 +38,5 @@ __Part 3 - Functional Concurrent Programming__ [here](/src/main/scala/lectures/p
   * Thread communication 
     * Producer/Consumer problem
     * Wait and notify (synchronizes)
+  * Futures and Promises
+    * Functional composition
