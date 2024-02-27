@@ -40,3 +40,5 @@ __Part 3 - Functional Concurrent Programming__ [here](/src/main/scala/lectures/p
     * Wait and notify (synchronizes)
   * Futures and Promises
     * Functional composition
+    * Fallbacks
+    * Blocking futures - implicit conversions (Await)
