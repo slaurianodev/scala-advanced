@@ -41,4 +41,9 @@ __Part 3 - Functional Concurrent Programming__ [here](/src/main/scala/lectures/p
   * Futures and Promises
     * Functional composition
     * Fallbacks
-    * Blocking futures - implicit conversions (Await)
+    * Blocking futures - implicit conversions (Await) 
+
+__Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits) 
+* ArrowAssoc class
+* Organizing implicits
+  * Implicit scope
