@@ -47,3 +47,4 @@ __Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits)
 * ArrowAssoc class
 * Organizing implicits
   * Implicit scope
+* Type classes
