@@ -48,3 +48,4 @@ __Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits)
 * Organizing implicits
   * Implicit scope
 * Type classes
+  * AD-HOC polymorphism

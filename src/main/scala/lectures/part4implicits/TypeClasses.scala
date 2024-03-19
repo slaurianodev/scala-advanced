@@ -36,7 +36,7 @@ object TypeClasses extends App {
     def serialize(value: T): String
   }
 
-  object UserSerializer extends HTMLSerializer[User] {
+  implicit object UserSerializer extends HTMLSerializer[User] {
     def serialize(user: User): String = s"<div> ${user.name} (${user.age} yo) <a href=${user.email}/> </div>"
   }
 
@@ -59,6 +59,11 @@ object TypeClasses extends App {
     def action(value: T): String
   }
 
+  object MyTypeClassTemplate {
+    def apply[T](implicit instance: MyTypeClassTemplate[T]): TypeClasses.MyTypeClassTemplate[T] = instance
+  }
+
+
   /**
    *  Equality
    */
@@ -66,7 +71,7 @@ object TypeClasses extends App {
     def apply(a: T, b: T): Boolean
   }
 
-  object NameEquality extends Equal[User] {
+  implicit object NameEquality extends Equal[User] {
     override def apply(a: User, b: User): Boolean = a.name == b.name
   }
 
@@ -77,6 +82,8 @@ object TypeClasses extends App {
   object HTMLSerializer {
     def serialize[T](value: T)(implicit serializer: HTMLSerializer[T]): String =
       serializer.serialize(value)
+
+    def apply[T](implicit serializer: HTMLSerializer[T]):  TypeClasses.HTMLSerializer[T] = serializer
   }
 
   implicit object IntSerializer extends HTMLSerializer[Int] {
@@ -84,4 +91,22 @@ object TypeClasses extends App {
   }
 
   println(HTMLSerializer.serialize(42))
+  println(HTMLSerializer.serialize(john))
+
+  // access to the entire type class interface
+  println(HTMLSerializer[User].serialize(john))
+
+
+  /*
+    Exercise: implement the TC pattern for the Equality tc
+  */
+  object Equal {
+    def apply[T](a: T, b: T)(implicit equalizer:Equal[T]): Boolean =
+      equalizer.apply(a, b)
+  }
+
+  val anotherJohn = User("John", 45, "anotherjohn@rockthejvm.com")
+  println(Equal(john, anotherJohn))
+
+  // AD-HOC polymorphism
 }
