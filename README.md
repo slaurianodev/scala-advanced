@@ -52,3 +52,4 @@ __Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits)
   * Implicit classes and methods (Pimp my library)
   * Content bounds
   * Implicitly
+  * Magnet Pattern
