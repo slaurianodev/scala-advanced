@@ -53,3 +53,5 @@ __Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits)
   * Content bounds
   * Implicitly
   * Magnet Pattern
+* Givens - Scala 3 implicits equivalent 
+* Extension Methods
