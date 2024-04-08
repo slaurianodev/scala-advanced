@@ -55,3 +55,9 @@ __Part 4 - Implicits__ [here](/src/main/scala/lectures/part4implicits)
   * Magnet Pattern
 * Givens - Scala 3 implicits equivalent 
 * Extension Methods
+
+__Part 5 - Mastering the Type System__ [here](/src/main/scala/lectures/part5ts)
+* Advanced Inheritance
+  * Type linearization (super problem)  
+* Variance
+  * Covariance [+T]/ Invariance [T] / Contravariance [-T]
