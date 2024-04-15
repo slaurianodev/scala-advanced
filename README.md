@@ -61,3 +61,6 @@ __Part 5 - Mastering the Type System__ [here](/src/main/scala/lectures/part5ts)
   * Type linearization (super problem)  
 * Variance
   * Covariance [+T]/ Invariance [T] / Contravariance [-T]
+* Type Member
+  * Alternative to generics
+* Inner types and Path-Dependent Types
