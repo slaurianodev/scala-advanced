@@ -64,3 +64,8 @@ __Part 5 - Mastering the Type System__ [here](/src/main/scala/lectures/part5ts)
 * Type Member
   * Alternative to generics
 * Inner types and Path-Dependent Types
+* Self Types
+  * Cake Pattern => "Dependency Injection"
+  * Cyclical dependencies
+* F-Bounded Polymorphism
+* Higher-Kinded Types
